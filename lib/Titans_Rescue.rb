@@ -1,6 +1,2 @@
-require "Titans_Rescue/version"
-
-module TitansRescue
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "Titans_Rescue/version"
+require_relative './cli.rb'

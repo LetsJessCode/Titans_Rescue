@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './Titans_Rescue.rb'
+
+TitansRescue::CLI.new.call
